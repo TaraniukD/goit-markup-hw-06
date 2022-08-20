@@ -248,13 +248,12 @@ cursor: pointer;
     width: 18px;
     height: 18px;
     fill: currentColor;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .close-modal:hover,
 .close-modal:focus {
     color: var(--axent-text-color);
-}
-
-.form {
 }
 
 .form-title {
@@ -348,10 +347,7 @@ font-weight: 400;
 
     color: rgba(117, 117, 117, 0.5);
 }
-.form-policy {
-    
-        
-}
+
 .policy-input {
     -webkit-appearance: none;
 }
@@ -723,9 +719,7 @@ padding: 30px 0;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
 
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
 .footer-icon .icon {
 display: block;
